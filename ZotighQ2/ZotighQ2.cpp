@@ -25,6 +25,9 @@ int main()
 	cout << "\nHow many days will you be gone?: " << endl;
 	cin >> daysGone;
 	do {
+	// cout's to get the users input on the temp
+		cout << "\nWhat is the tempature predicted to be on day " << i << "?" << endl;
+		cin >> temp;
 
 	} while (i <= daysGone);
 }
