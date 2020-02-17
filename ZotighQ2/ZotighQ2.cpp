@@ -21,5 +21,8 @@ int main()
 	cout << "\nObjective: A C++ program that will help a person going on vacation to the ocean to determine whether they should to go to the beach or visit the tourist spots." << endl;
 	cout << "Welcome!" << endl;
 
-
+	// cout's to get the user input
+	cout << "\nHow many days will you be gone?: " << endl;
+	cin >> daysGone;
+	
 }
