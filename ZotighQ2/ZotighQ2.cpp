@@ -29,5 +29,12 @@ int main()
 		cout << "\nWhat is the tempature predicted to be on day " << i << "?" << endl;
 		cin >> temp;
 
+	//Cout's to get the users input for type of weather in that day
+		cout << "\nFor Day " << i << ", what is the weather predicted to be?:" << endl
+			<< "Please enter the coresponding number: " << endl;
+		cout << "1. Sunny" << endl;
+		cout << "2. Rainy" << endl;
+		cout << "3. Cloudy" << endl;
+		cin >> weather;
 	} while (i <= daysGone);
 }
