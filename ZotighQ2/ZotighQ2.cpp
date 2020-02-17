@@ -24,5 +24,7 @@ int main()
 	// cout's to get the user input
 	cout << "\nHow many days will you be gone?: " << endl;
 	cin >> daysGone;
-	
+	do {
+
+	} while (i <= daysGone);
 }
