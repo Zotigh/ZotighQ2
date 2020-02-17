@@ -38,10 +38,10 @@ int main()
 		cin >> weather;
 
 	// Loops to handle to displayed 
-		if (weather == 3 && temp <= 75) {
+		if (weather == 3 && temp >= 75) {
 			cout << "On day " << i << ", it will be cloudy, but still beach weather!" << endl;
 		}
-		else if (weather == 1 && temp <= 75) {
+		else if (weather == 1 && temp >= 75) {
 			cout << "On day " << i << ", it should be a perfect day at the beach, but take a big beach umbrella!" << endl;
 		}
 		else if (weather == 2) {
