@@ -51,5 +51,8 @@ int main()
 			cout << "On day " << i << ", it might be a bit cool for the beach.  Bring a sweater!" << endl;
 		}
 
+	//increments i
+	    i++;
+
 	} while (i <= daysGone);
 }
