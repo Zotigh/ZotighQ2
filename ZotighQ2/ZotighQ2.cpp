@@ -36,5 +36,20 @@ int main()
 		cout << "2. Rainy" << endl;
 		cout << "3. Cloudy" << endl;
 		cin >> weather;
+
+	// Loops to handle to displayed 
+		if (weather == 3 && temp <= 75) {
+			cout << "On day " << i << ", it will be cloudy, but still beach weather!" << endl;
+		}
+		else if (weather == 1 && temp <= 75) {
+			cout << "On day " << i << ", it should be a perfect day at the beach, but take a big beach umbrella!" << endl;
+		}
+		else if (weather == 2) {
+			cout << "On day " << i << ", it will be a great day to visit the local museum!" << endl;
+		}
+		else {
+			cout << "On day " << i << ", it might be a bit cool for the beach.  Bring a sweater!" << endl;
+		}
+
 	} while (i <= daysGone);
 }
