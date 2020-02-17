@@ -54,5 +54,10 @@ int main()
 	//increments i
 	    i++;
 
-	} while (i <= daysGone);
+	} while (i <= daysGone);	
+		
+	// Exit Message
+	cout << "Thank you for using, Goodybye!" << endl;
+
+	return 0;
 }
