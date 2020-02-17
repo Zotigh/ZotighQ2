@@ -9,4 +9,9 @@ using namespace std;
 
 int main()
 {
+// Declaired Variables
+	int daysGone;
+	int weather;
+	int temp;
+	int i = 1;
 }
